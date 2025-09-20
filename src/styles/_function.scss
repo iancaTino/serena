@@ -1,0 +1,126 @@
+@use 'variaveis';
+
+.function {
+    background-color: variaveis.$colorRose;
+    padding: 3rem;
+    text-align: center;
+
+    h4 {
+        text-align: center;
+    }
+
+    .function-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); // 2 cards por linha
+        gap: 3rem;
+        justify-items: center;
+
+        .info-card {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(255, 0, 157, 0.1);
+            overflow: hidden;
+            width: 80%;
+            cursor: pointer;
+            transition: transform 0.9s ease;
+
+            &:hover {
+                transform: translateY(-20px);
+            }
+
+            .card-front {
+                padding: 2rem 1rem;
+                position: relative;
+                text-align: left;
+
+                i {
+                    font-size: 2rem;
+                    color: variaveis.$colorPink;
+                    margin-bottom: 1rem;
+                    display: block;
+                    text-align: center;
+                }
+
+                h4 {
+                    font-size: 1.2rem;
+                    margin-bottom: 0.5rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    color: #555;
+                    margin-bottom: 1rem;
+                }
+
+                ul {
+                    list-style: disc;
+                    padding-left: 1.2em;
+                    margin: 0;
+                    max-height: 0;
+                    overflow: hidden;
+                    opacity: 0;
+                    transition: max-height 0.4s ease, opacity 0.4s ease;
+
+                    li {
+                        font-size: 1rem;
+                        margin-bottom: 0.5rem;
+                        color: variaveis.$colorGray;
+                        opacity: 0;
+                        transform: translateY(10px);
+                        animation: fadeUp 0.5s forwards;
+
+                        &::marker {
+                            color: variaveis.$colorPink;
+                        }
+                    }
+
+                    // delay para animação de cada item da lista
+                    @for $i from 1 through 10 {
+                        li:nth-child(#{$i}) {
+                            animation-delay: $i * 0.1s;
+                        }
+                    }
+                }
+
+                &:hover ul {
+                    max-height: 500px;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .stats-function {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center; 
+        gap: 8rem; 
+        margin-top: 6rem;
+        list-style: none;
+        padding: 0;
+
+        li {
+            text-align: center;
+
+            h3 {
+                margin: 0;
+                font-size: 2rem;
+                color: variaveis.$colorPink;
+            }
+
+            p {
+                margin: 0.3rem 0 0;
+                color: variaveis.$colorGray;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    // animação fade + subida da lista
+    @keyframes fadeUp {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}

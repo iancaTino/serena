@@ -1,0 +1,35 @@
+@use 'variaveis';
+@use 'hero';
+@use 'information';
+@use 'function';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: variaveis.$colorWhite;
+    font-family: 'Montserrat', sans-serif;
+
+    h3 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+
+        .color {
+            color: variaveis.$colorPink;
+        }
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: variaveis.$colorGray;
+        max-width: 700px;
+        text-align: center;
+        margin: 0 auto 2.5rem auto;
+        line-height: 1.6;
+    }
+}

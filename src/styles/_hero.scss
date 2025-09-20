@@ -1,0 +1,111 @@
+@use 'variaveis';
+
+$font-family: 'Montserrat', sans-serif;
+
+.hero {
+    background-color: variaveis.$colorBege;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 8rem;
+    font-family: $font-family;
+
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 10rem;
+        flex-wrap: wrap;
+
+        .content {
+            flex: 1;
+            max-width: 600px;
+
+            h2 {
+                color: variaveis.$colorBlack;
+                font-size: 55px;
+                margin-bottom: 3rem;
+
+                .color {
+                    color: variaveis.$colorPink;
+                }
+            }
+
+            p {
+                margin-bottom: 3rem;
+                line-height: 1.5;
+                font-size: 20px;
+                color: variaveis.$colorGray;
+            }
+
+            .buttons {
+                display: flex;
+                gap: 1rem;
+                margin-bottom: 3rem;
+
+                button {
+                    padding: 1rem 2rem;
+                    border: none;
+                    border-radius: 16px;
+                    background-color: variaveis.$colorPink;
+                    color: #fff;
+                    cursor: pointer;
+                    font-size: 16px;
+                    font-weight: bold;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        background-color: #e60055;
+                        transform: scale(1.05);
+                        box-shadow: 0 8px 20px rgba(255, 0, 98, 0.4);
+                    }
+
+                    &:active {
+                        transform: scale(0.98);
+                        box-shadow: 0 4px 10px rgba(255, 0, 98, 0.3);
+                    }
+                }
+            }
+
+            .linha {
+                border: none;
+                border-top: 1px solid #ffa8d1;
+                width: 100%;
+                margin: 30px auto;
+            }
+
+            .stats {
+                display: flex;
+                gap: 5rem;
+                list-style: none;
+                padding: 0;
+
+                li {
+                    h3 {
+                        color: variaveis.$colorPink;
+                        margin: 0;
+                        margin-top: 30px;
+                        font-size: 2rem;
+                    }
+
+                    p {
+                        margin: 0;
+                        color: variaveis.$colorGray;
+                    }
+                }
+            }
+        }
+
+        .image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 30px;
+            }
+        }
+    }
+}
