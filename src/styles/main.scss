@@ -2,6 +2,7 @@
 @use 'hero';
 @use 'information';
 @use 'function';
+@use 'carousel';
 
 * {
     margin: 0;
@@ -31,5 +32,32 @@ body {
         text-align: center;
         margin: 0 auto 2.5rem auto;
         line-height: 1.6;
+    }
+}
+
+.stats-function-item {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 6rem;
+    list-style: none;
+    padding: 0;
+
+    li {
+        text-align: center;
+        padding: 0 3rem;
+
+        h3 {
+            margin: 0;
+            font-size: 2rem;
+            color: variaveis.$colorPink;
+        }
+
+        p {
+            margin: 0.3rem 0 5;
+            color: variaveis.$colorGray;
+            font-size: 1rem;
+        }
     }
 }

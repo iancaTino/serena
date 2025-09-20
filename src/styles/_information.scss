@@ -10,13 +10,13 @@
         margin-bottom: 1.5rem;
 
         .color {
-            color: variaveis.$colorPink;
+            color: variaveis.$colorPink; 
         }
     }
 
     p {
         font-size: 1.2rem;
-        color: variaveis.$colorGray;
+        color: variaveis.$colorGray; 
         max-width: 700px;
         margin: 0 auto 2.5rem auto;
         line-height: 1.6;
@@ -64,10 +64,10 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    background-color: #ffe4e0;
+                    background-color: #ffe4e0; 
 
                     i {
-                        color: #ff70a2;
+                        color: #ff70a2; 
                         font-size: 24px;
                     }
                 }

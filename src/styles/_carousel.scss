@@ -1,0 +1,108 @@
+@use 'variaveis';
+
+.carousel {
+    background-color: variaveis.$colorBege;
+    max-width: 700px;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+    .color {
+        color: variaveis.$colorPink;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    .carousel-container {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .carousel-track {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
+    }
+
+    .carousel-item {
+        min-width: 100%;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        padding: 2rem 1rem;
+
+        i {
+            font-size: 3rem;
+            color: variaveis.$colorPink;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 2rem;
+            max-width: 500px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            font-style: italic;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        h4 {
+            margin-top: 1rem;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 0.2rem;
+            margin-bottom: 0;
+        }
+    }
+
+    .carousel-nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+
+        label {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #ccc;
+            margin: 0 6px;
+            cursor: pointer;
+
+            &:hover {
+                background: #999;
+            }
+        }
+    }
+
+    #t1:checked~.carousel-container .carousel-track {
+        transform: translateX(0%);
+    }
+
+    #t2:checked~.carousel-container .carousel-track {
+        transform: translateX(-100%);
+    }
+
+    #t3:checked~.carousel-container .carousel-track {
+        transform: translateX(-200%);
+    }
+
+    #t1:checked~.carousel-nav label[for="t1"],
+    #t2:checked~.carousel-nav label[for="t2"],
+    #t3:checked~.carousel-nav label[for="t3"] {
+        background: variaveis.$colorPink;
+    }
+}
