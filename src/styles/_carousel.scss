@@ -1,61 +1,56 @@
-@use 'variaveis'; 
+@use 'variaveis';
 
 .carousel-container {
-    background-color: variaveis.$colorBege; 
+    background-color: variaveis.$colorBege;
     border-radius: 20px;
-    padding: 4rem 2rem; 
+    padding: 4rem 2rem;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
-    justify-content: center; 
-    gap: 2rem; 
+    justify-content: center;
+    gap: 2rem;
 }
 
 .carousel-content {
-    width: 800px; 
-    position: relative; 
+    width: 800px;
+    position: relative;
 
     .testimonial {
         display: none;
         background: variaveis.$colorWhite;
-        padding: 2rem; 
-        border-radius: 12px; 
+        padding: 2rem;
+        border-radius: 12px;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-        font-style: italic; 
-        text-align: center; 
+        font-style: italic;
+        text-align: center;
     }
 
     .testimonial.active {
-        display: block; 
+        display: block;
     }
 }
 
 .carousel-content .testimonial i {
-    font-size: 3rem; 
-    color: variaveis.$colorPink; 
-    margin-bottom: 1rem; 
+    font-size: 3rem;
+    color: variaveis.$colorPink;
+    margin-bottom: 1rem;
 }
 
-// Bolinhas de navegação do carousel
 .carousel-nav {
-    display: flex; // organiza as bolinhas em linha
-    justify-content: center; // centraliza as bolinhas
-    margin-top: 1rem; // espaço acima das bolinhas
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
 
     .dot {
-        width: 14px; // largura da bolinha
-        height: 14px; // altura da bolinha
-        border-radius: 50%; // transforma em círculo
-        background: #ccc; // cor padrão cinza
-        margin: 0 6px; // espaçamento lateral
-        cursor: pointer; // cursor indica que é clicável
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #ccc;
+        margin: 0 6px;
+        cursor: pointer;
 
-        // Bolinha ativa
         &.active {
-            background: variaveis.$colorPink; // cor pink da bolinha ativa
+            background: variaveis.$colorPink;
         }
     }
-
-
-
 }

@@ -1,0 +1,139 @@
+@use 'variaveis';
+
+.download {
+    background: linear-gradient(90deg, #ff9a9e, #ff6a88, #ff2e63);
+    color: variaveis.$colorWhite;
+
+    .download-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 1rem;
+
+        i.bi-heart {
+            color: variaveis.$colorWhite;
+            font-size: 4rem;
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto 2.5rem auto;
+            line-height: 1.6;
+            color: variaveis.$colorWhite;
+            text-align: center;
+        }
+    }
+
+    .buttons_download {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        gap: 1rem;
+
+        button {
+            background-color: variaveis.$colorWhite;
+            color: variaveis.$colorPink;
+            border: none;
+            padding: 0.2rem 2rem;
+            font-size: 1.3rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #ff6a88;
+                color: variaveis.$colorWhite;
+            }
+
+            i {
+                margin-right: 0.5rem;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .benefits {
+        display: flex;
+        justify-content: center;
+        gap: 6rem;
+        list-style: outside;
+        padding: 0;
+        margin-top: 2rem;
+
+        li {
+            text-align: center;
+
+            p {
+                margin: 0.3rem 0 0;
+                color: variaveis.$colorWhite;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .buttons_download_store {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2rem;
+
+        button {
+            background-color: #ff6a88;
+            color: variaveis.$colorWhite;
+            border-color: variaveis.$colorWhite;
+            border-radius: 16px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: background-color 0.3s, transform 0.3s;
+
+            &:hover {
+                background-color: variaveis.$colorWhite;
+                color: #ff6a88;
+                transform: translateY(-6px);
+            }
+
+            i {
+                font-size: 2rem;
+            }
+
+            .store-text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                line-height: 1;
+                text-align: center;
+
+                span {
+                    font-size: 0.75rem;
+                    padding: 6px 0;
+                }
+
+                strong {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .app-store {
+            i {
+                color: variaveis.$colorWhite;
+            }
+        }
+
+        .google-play {
+            i {
+                color: variaveis.$colorWhite;
+            }
+        }
+    }
+}

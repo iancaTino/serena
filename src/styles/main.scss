@@ -3,6 +3,8 @@
 @use 'information';
 @use 'function';
 @use 'carousel';
+@use 'download';
+@use 'footer';
 
 * {
     margin: 0;
@@ -60,4 +62,5 @@ body {
             font-size: 1rem;
         }
     }
+    
 }
