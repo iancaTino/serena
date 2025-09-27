@@ -1,46 +1,51 @@
-# 🌸 Serena 🌸
+# 🌸 Serena — Landing Page
 
-O **Serena** é uma **aplicação web focada no bem-estar feminino**.  
-O objetivo é criar uma interface simples, intuitiva e acolhedora, que ajude as usuárias a cuidarem de si mesmas e manterem equilíbrio e tranquilidade no dia a dia. 💖✨
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
----
+Landing page criada por [@iancaTino](https://github.com/iancaTino) para apresentar o **Serena**, uma plataforma voltada ao bem-estar emocional.  
+O projeto visa oferecer uma página clara e objetiva para explicar a proposta do Serena, mostrar funcionalidades e incentivar novas usuárias a conhecerem o serviço.
 
-## 🌟 Tecnologias Utilizadas
-
-- **💻 Frontend:** HTML, SCSS, JavaScript  
-- **🔧 Controle de Versão:** Git/GitHub  
-- **🎨 Design:** Cores suaves, elementos visuais delicados e tons de rosa que transmitem calma e acolhimento 🌸💗  
+> ⚠️ **Aviso:** Este projeto ainda **não está finalizado**. O design, os textos e algumas seções podem sofrer alterações nas próximas versões.
 
 ---
 
-## 🌈 Funcionalidades Planejadas
+## ✨ Funcionalidades atuais
 
-- 🧘 **Meditações Guiadas:** Sessões curtas para relaxamento, foco e bem-estar mental  
-- 📊 **Registro de Humor:** Ferramenta para acompanhar emoções diárias e identificar padrões  
-- 📅 **Planejamento Diário:** Organização de tarefas com lembretes gentis 💌  
-- 📱 **Design Responsivo:** Interface adaptável para diferentes dispositivos  
-
----
-
-## 💖 Objetivo do Projeto
-
-Este projeto é uma oportunidade de **aplicar conhecimentos em desenvolvimento front-end**, aprimorar habilidades em design de interfaces e criar uma experiência digital que promova **autocuidado e bem-estar**.  
-
-- 🌸 Criar uma experiência agradável e acolhedora para mulheres  
-- 💗 Incentivar hábitos saudáveis e equilíbrio emocional  
-- 🎀 Explorar criatividade com cores, animações e design intuitivo  
+- Estrutura HTML e CSS responsiva para diferentes tamanhos de tela  
+- Seções de apresentação, funcionalidades, depoimentos e contato  
+- Chamadas para ação (CTA) destacadas para conversão  
+- Uso de Gulp para compilar SCSS e otimizar assets  
 
 ---
 
-## 🚧 Projeto em Andamento
+## 🛠️ Tecnologias utilizadas
 
-O Serena ainda está **sendo desenvolvido**! 🌸💻  
-Este é um projeto pessoal em que estou **criando e aprimorando funcionalidades**, explorando design e desenvolvimento front-end.  
-
-- Novas funcionalidades e melhorias estão **sempre sendo adicionadas**  
-- O objetivo é **criar uma experiência acolhedora e intuitiva** para as usuárias 💖✨  
+- **HTML5**  
+- **SCSS / CSS3**  
+- **JavaScript (Vanilla)**  
+- **Gulp** (automação de tarefas)  
 
 ---
 
+## 🚀 Como visualizar
 
-🌸✨ **Vamos juntas transformar o bem-estar digital!** 💖🎀
+Você pode acessar a versão atual hospedada no Vercel:  
+[https://serena-omega.vercel.app/](https://serena-omega.vercel.app/)
+
+---
+
+## 📂 Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/iancaTino/serena.git
+
+# Entre na pasta do projeto
+cd serena
+
+# Instale as dependências
+npm install
+
+# Rode o Gulp para compilar SCSS e iniciar o servidor local (se configurado)
+gulp
