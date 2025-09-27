@@ -9,7 +9,7 @@
 
 <p align="center">
 Landing page criada para apresentar o **Serena**, uma plataforma voltada ao bem-estar emocional.  
-O projeto tem como objetivo mostrar de forma clara e delicada a proposta do Serena, suas funcionalidades e incentivar novas usuárias a conhecerem o serviço. 🌷💖
+O projeto tem como objetivo mostrar de forma clara e delicada a proposta do Serena, suas funcionalidades e incentivar novas usuárias a conhecerem o serviço.
 
 </p>
 
