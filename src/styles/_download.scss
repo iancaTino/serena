@@ -137,3 +137,40 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .download {
+
+        .download-content {
+            padding: 2rem 1rem;
+
+            h3 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.3rem;
+            }
+        }
+
+        .benefits {
+            flex-direction: column;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-top: 1rem;
+
+            li {
+                text-decoration: none;
+                flex: 1 1 45%;
+                margin-bottom: 1rem;
+            }
+        }
+
+        .buttons_download_store {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+    }
+}

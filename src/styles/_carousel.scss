@@ -28,12 +28,12 @@
     .testimonial.active {
         display: block;
     }
-}
 
-.carousel-content .testimonial i {
-    font-size: 3rem;
-    color: variaveis.$colorPink;
-    margin-bottom: 1rem;
+    .testimonial i {
+        font-size: 3rem;
+        color: variaveis.$colorPink;
+        margin-bottom: 1rem;
+    }
 }
 
 .carousel-nav {
@@ -51,6 +51,66 @@
 
         &.active {
             background: variaveis.$colorPink;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        padding: 2rem 1rem;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        h3 {
+            font-size: 1.6rem; 
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .stats-function-item {
+            display: flex;
+            flex-direction: column; 
+            gap: 2rem;
+            list-style: none;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                h3 {
+                    color: variaveis.$colorPink;
+                    margin: 0;
+                    margin-top: 10px;
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+
+                p {
+                    margin: 0;
+                    color: variaveis.$colorGray;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .carousel-content {
+        width: 100%; 
+
+        .testimonial {
+            font-size: 0.9rem;
+            padding: 1rem;
+        }
+
+        .testimonial i {
+            font-size: 2rem;
         }
     }
 }

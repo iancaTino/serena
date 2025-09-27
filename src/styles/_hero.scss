@@ -108,4 +108,59 @@ $font-family: 'Montserrat', sans-serif;
             }
         }
     }
+
+    @media (max-width: 768px) {
+        padding: 6rem 2rem;
+
+        .container {
+            flex-direction: column;
+            gap: 3rem;
+            text-align: center;
+
+            .content {
+                h2 {
+                    font-size: 36px;
+                    margin-bottom: 2rem;
+                    text-align: center;
+
+                }
+
+                p {
+                    font-size: 18px;
+                }
+
+                .buttons {
+                    flex-direction: column;
+                    align-items: center;
+
+                    button {
+                        width: 100%;
+                        max-width: 300px;
+                    }
+                }
+
+                .stats {
+                    flex-direction: row;
+                    gap: 3rem;
+                    justify-content: center;
+
+                    li {
+                        h3 {
+                            font-size: 1.5rem;
+                        }
+
+                        p {
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+
+            .image {
+                img {
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
 }
