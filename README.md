@@ -8,8 +8,9 @@
 ---
 
 <p align="center">
-💖 **Serena** é uma landing page delicada e charmosa, criada para apresentar uma plataforma de <b>bem-estar emocional</b>.  
-Feita com muito carinho para mulheres que querem equilíbrio, autocuidado e momentos de calmaria no dia a dia. 🌸
+Landing page criada para apresentar o **Serena**, uma plataforma voltada ao bem-estar emocional.  
+O projeto tem como objetivo mostrar de forma clara e delicada a proposta do Serena, suas funcionalidades e incentivar novas usuárias a conhecerem o serviço. 🌷💖
+
 </p>
 
 > ⚠️ **Atenção:** Este projeto ainda **não está finalizado**. Algumas seções, textos e ajustes de design podem mudar nas próximas versões. 🌷
