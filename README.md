@@ -1,43 +1,47 @@
 # 🌸 Serena — Landing Page
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-ff69b4?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/license-MIT-ffb6c1?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/badge/✨Status-em%20desenvolvimento-ff69b4?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/💌 License-MIT-ffb6c1?style=for-the-badge" alt="License">
 </p>
 
-Landing page criada por [@iancaTino](https://github.com/iancaTino) para apresentar o **Serena**, uma plataforma voltada ao bem-estar emocional.  
-O projeto tem como objetivo mostrar de forma clara e delicada a proposta do Serena, suas funcionalidades e incentivar novas usuárias a conhecerem o serviço.
+---
 
-> ⚠️ **Aviso:** Este projeto ainda **não está finalizado**. Algumas seções, textos e ajustes de design podem ser atualizados em breve.
+<p align="center">
+💖 **Serena** é uma landing page delicada e charmosa, criada para apresentar uma plataforma de <b>bem-estar emocional</b>.  
+Feita com muito carinho para mulheres que querem equilíbrio, autocuidado e momentos de calmaria no dia a dia. 🌸
+</p>
+
+> ⚠️ **Atenção:** Este projeto ainda **não está finalizado**. Algumas seções, textos e ajustes de design podem mudar nas próximas versões. 🌷
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Funcionalidades atuais
 
-- Layout responsivo, adaptado para desktop e mobile  
-- Seções de apresentação, funcionalidades, depoimentos e contato  
-- Chamadas para ação (CTA) destacadas para conversão  
-- Uso de **Gulp** para compilar SCSS e otimizar assets  
-
----
-
-## 🎨 Tecnologias
-
-- HTML5  
-- SCSS / CSS3  
-- JavaScript (Vanilla)  
-- Gulp (automação de tarefas)  
+🌸 Layout responsivo para desktop e mobile  
+🌸 Seções organizadas: Apresentação, Funcionalidades, Depoimentos, Contato  
+🌸 Chamadas para ação (CTA) super visíveis 💌  
+🌸 SCSS compilado com Gulp para deixar tudo lindo e organizado 💖  
 
 ---
 
-## 🚀 Visualizar online
+## 🎨 Tecnologias utilizadas
 
-Acesse a versão atual no Vercel:  
-[https://serena-omega.vercel.app/](https://serena-omega.vercel.app/)
+- 💗 **HTML5**  
+- 💗 **SCSS / CSS3**  
+- 💗 **JavaScript (Vanilla)**  
+- 💗 **Gulp** (automação de tarefas e compilação de SCSS)
 
 ---
 
-## 💻 Rodando localmente
+## 🌐 Acesse online
+
+Veja a versão atual da landing page no Vercel:  
+👉 [https://serena-omega.vercel.app/](https://serena-omega.vercel.app/)
+
+---
+
+## 💻 Como rodar localmente
 
 ```bash
 # Clone o repositório
