@@ -1,41 +1,43 @@
 # 🌸 Serena — Landing Page
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![License](https://img.shields.io/badge/license-MIT-blue)
+<p align="center">
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-ff69b4?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/license-MIT-ffb6c1?style=for-the-badge" alt="License">
+</p>
 
 Landing page criada por [@iancaTino](https://github.com/iancaTino) para apresentar o **Serena**, uma plataforma voltada ao bem-estar emocional.  
-O projeto visa oferecer uma página clara e objetiva para explicar a proposta do Serena, mostrar funcionalidades e incentivar novas usuárias a conhecerem o serviço.
+O projeto tem como objetivo mostrar de forma clara e delicada a proposta do Serena, suas funcionalidades e incentivar novas usuárias a conhecerem o serviço.
 
-> ⚠️ **Aviso:** Este projeto ainda **não está finalizado**. O design, os textos e algumas seções podem sofrer alterações nas próximas versões.
+> ⚠️ **Aviso:** Este projeto ainda **não está finalizado**. Algumas seções, textos e ajustes de design podem ser atualizados em breve.
 
 ---
 
-## ✨ Funcionalidades atuais
+## ✨ Funcionalidades
 
-- Estrutura HTML e CSS responsiva para diferentes tamanhos de tela  
+- Layout responsivo, adaptado para desktop e mobile  
 - Seções de apresentação, funcionalidades, depoimentos e contato  
 - Chamadas para ação (CTA) destacadas para conversão  
-- Uso de Gulp para compilar SCSS e otimizar assets  
+- Uso de **Gulp** para compilar SCSS e otimizar assets  
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🎨 Tecnologias
 
-- **HTML5**  
-- **SCSS / CSS3**  
-- **JavaScript (Vanilla)**  
-- **Gulp** (automação de tarefas)  
+- HTML5  
+- SCSS / CSS3  
+- JavaScript (Vanilla)  
+- Gulp (automação de tarefas)  
 
 ---
 
-## 🚀 Como visualizar
+## 🚀 Visualizar online
 
-Você pode acessar a versão atual hospedada no Vercel:  
+Acesse a versão atual no Vercel:  
 [https://serena-omega.vercel.app/](https://serena-omega.vercel.app/)
 
 ---
 
-## 📂 Como rodar localmente
+## 💻 Rodando localmente
 
 ```bash
 # Clone o repositório
@@ -47,5 +49,5 @@ cd serena
 # Instale as dependências
 npm install
 
-# Rode o Gulp para compilar SCSS e iniciar o servidor local (se configurado)
+# Rode o Gulp para compilar SCSS e iniciar o servidor local
 gulp
